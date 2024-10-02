@@ -5,7 +5,7 @@ on:
     branches: [ "main" ]
 
 env:
-  IMAGE_NAME: zjlow/cicd-test-app   # Format: <dockerhub_account>/<repo>
+  IMAGE_NAME: zjlow/cicd-test-app
   IMAGE_TAG: ${{ github.sha }}
 
 jobs:
